@@ -1,41 +1,27 @@
-<!DOCTYPE HTML>
-
+<!doctype html>
 <html>
-
 <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-    <title>BR Media: API-Cidades</title>
-    <link rel="stylesheet" href="css/style.css" />
-    <link rel="shortcut icon" type="image/x-png" href="imagens/lorem_fav.png" />
+<meta charset="utf-8">
+<title>BR Media: API-Cidades</title>
+<link rel="stylesheet" href="css/estilos.css" />
+<link rel="icon" href="img/lorem.png">
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
 </head>
 
 <body>
-    <header>
-        <figure class="logo">
-            <img src="imagens/lorem.png" />
-        </figure>
-        <h2 class="cabecalho">Consulta de Cidades do Brasil</h2>
-    </header>
-
-    <div id="busca">
-        <form method="get">
-            <label class="info">Digite o nome da cidade:</label>
-            <br>
-            <input type="text" id="input" />
+	  <div class="ft">
+		<h1><i class="fas fa-search"></i></h1><br><br>
+        <h2 class="cabecalho">Consulta de Cidades Brasileiras</h2>
+        <form method="get">         
+            <input type="text" id="input" placeholder="Digite o nome da cidade..."/>
             <button onclick="retorna">Buscar</button>
         </form>
-    </div>
-
-    <div id="contents">Algo<br></div>
-
-    <footer class="rodape">
-        <p>&copy; Copyright 2018<br>Luis Fernando M. Petreca</p>
-        <a href="https://www.facebook.com" target="_blank"><img id="facebook" src="imagens/fb.png" /></a>
-        <a href="https://www.linkedin.com" target="_blank"><img id="linkedin" src="imagens/linkedin.png" /></a>
-    </footer>
-
-    <script src="js/jquery.min.js"></script>
-    <script src="js/functions.js"></script>
+        <p>Copyright &copy; 2018 Luis Fernando M. Petreca &#8212; Todos os direitos reservados.<br><br>
+			<a href="#" target="_blank" title="Me siga no Facebook"><i class="fab fa-facebook-square"></i></a>
+			<a href="#" target="_blank" title="Me siga no LinkedIN"><i class="fab fa-linkedin-in"></i></a></p>
+	</div>
+		<script src="js/jquery.min.js"></script>
+    	<script src="js/functions.js"></script>
 </body>
-
 </html>
